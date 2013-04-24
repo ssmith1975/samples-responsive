@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* Screen Layout Large */
+
+
+body { 
+	margin: 0px;
+	padding: 0px; 
+}
+
+header a.logo {
+	display: block;
+	position: absolute;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+
+
+
+/* Layout large screens (default for older browsers) */
+
+/* Header */
+header {
+
+	height: 275px;
+	background: url(../_images/banner_large.jpg) no-repeat right 0px;
+}
+
+header a.logo {
+	width: 86px;
+	height: 125px;
+	top: 5px;
+	right: 50px;
+	background-image: url(../_images/logo.png);
+}
+
+/* Article */
+article {
+	padding: 60px 20px 10px 20px;
+	background: transparent url(../_images/page_divider_large.png) no-repeat center bottom;
+  	/*-webkit-background-size: 100% 100%;  Safari 3-4 */
+   	 /*background-size: 100% auto; Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */	
+	background-size: contain; 
+}
+
+article #figure_student {
+	float: right;
+	margin: 0px 0px 20px 20px;
+}
+
+
+article #figure_student img {
+	width: 300px;
+	height: 285px;
+}
+
+/* Promos */
+.promo_container {
+	margin-top: 20px;
+	padding: 0px 0px 15px 20px;
+}
+
+.promo_container .promo {
+	width: 33%;
+	float: left;
+	background-position: 0px 3px;
+}	
+
+.promo_container .promo .content {
+	padding: 0px 30px 0px 110px;
+}
+
+/* Navigation */
+nav {
+
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: #82ca9c;
+	top: 275px;
+}
+
+nav a {
+	margin: 12px 0px 10px 20px; 
+}
+
